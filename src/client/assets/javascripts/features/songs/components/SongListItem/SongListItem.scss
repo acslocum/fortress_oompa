@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "open_sansregular";
+  src: url("./fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.songListItem {
+  list-style: none;
+  font-family: "open_sansregular", Arial;
+  padding: 20px 10px 20px 10px;
+  border-bottom: 1px solid #E3E3E3;
+  display: flex;
+  width: 500px;
+  text-align:center;
+}
+
+.songInfos {
+  flex: 1 0 auto;
+}
+
+.songInfos span {
+  font-weight: bold;
+}
+
+.songActions {
+  flex: 0 0 90px;
+}
+
+.btnAction, .btnAction:active, .btnAction:focus, .btnAction:hover {
+  margin-right: 5px;
+  color: #5C75B0;
+}
+
+button:focus {
+  outline: 0 !important;
+}
